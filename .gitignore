@@ -1,0 +1,63 @@
+# Local development toolchains. Keep these folders on disk; do not commit them.
+/MinGW/
+/allegro/
+
+# Local editor configuration and machine-specific paths.
+.vscode/
+.idea/
+
+# Compiled output and native runtime dependencies.
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.d
+*.so
+*.so.*
+*.dylib
+/build/
+/SourceCode/build/
+/SourceCode/game
+/Debug/
+/Release/
+
+# Runtime output and local player records.
+*.log
+/SourceCode/highscore.txt
+
+# Generated documentation.
+/SourceCode/doxy_file/
+/SourceCode/html/
+/SourceCode/latex/
+
+# Font binaries are not included until redistribution rights are confirmed.
+# Keep legitimately obtained local copies in SourceCode/assets/font/.
+*.ttf
+*.otf
+*.ttc
+*.woff
+*.woff2
+
+# Archives and videos are not part of the source snapshot by default.
+*.zip
+*.7z
+*.rar
+*.mp4
+*.mov
+
+# Local credentials and OS/editor temporary files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
