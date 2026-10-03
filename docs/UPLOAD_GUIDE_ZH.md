@@ -73,9 +73,9 @@ Add Cutlet Rush source code and project documentation
 
 ## 5. 公開前還需要處理
 
-README 與 `docs/CREDITS.md` 的 TODO 要依真實情況補上姓名、團隊分工、模板來源和素材來源。保留第三方聲明，不要把整套課程模板當成全部原創，也不要擅自替所有內容套一個 MIT License。
+README 與 `docs/CREDITS.md` 已列出 [課程模板來源](https://github.com/lightbulb12294/CSI2P2-Final-Project-Template)。請繼續補充第三方程式與素材的來源和適用聲明。保留第三方聲明，不要把整套課程模板當成全部原創，也不要擅自替所有內容套一個 MIT License。
 
-確認課程允許公開、團隊同意、素材及第三方程式可以公開後，才考慮將 repository 改為 Public。這份整理不是授權審查。
+確認課程允許公開、素材及第三方程式可以公開後，才考慮將 repository 改為 Public。這份整理不是授權審查。
 
 照 `docs/BUILD_WINDOWS.md` 在新工作副本重新建置並執行，檢查兩個模式、按鍵、音效、字型與結算。這次只做靜態檢查，沒有驗證 Windows 執行結果。
 

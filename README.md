@@ -2,13 +2,13 @@
 
 使用 **C++17** 與 **Allegro 5** 開發的課程遊戲專案，包含格子式塔防與輸送帶進攻兩種模式。
 
-> **公開前待確認：**請補完團隊分工、模板與素材授權，以及本機建置／遊玩測試。本文件依據原始碼整理；這次 GitHub 整理沒有重新驗證 Windows 建置或實際遊戲執行。
+> **驗證說明：**本文件依據原始碼整理；本次文件更新未重新驗證 Windows 建置或實際遊戲執行。第三方程式與素材的授權仍需個別確認。
 
 ## 專案介紹
 
 第一關由玩家配置機器人、管理資源，抵禦持續靠近的學生與特殊敵人；第二關則改由玩家從輸送帶選取學生卡片，部署學生突破預先配置的機器人防線。
 
-專案以 **Introduction to Programming II Final Project Template** 為基礎。模板參考資訊與分工表位於 [來源與貢獻說明](docs/CREDITS.md)，請將課程提供的基礎架構與後續自行實作的部分分開描述。
+本專案以課程提供的起始模板為基礎進行延伸開發。模板來源與第三方資源資訊請參閱下方的「模板來源與致謝」及 [來源與素材說明](docs/CREDITS.md)。
 
 ## 原始碼中可辨識的功能
 
@@ -68,10 +68,6 @@
 
 本機開發環境另需將 `MinGW/`、`allegro/` 放在 `SourceCode/` 同一層；這些依賴資料夾由 `.gitignore` 排除，不會出現在 GitHub 檔案清單。
 
-## 個人／團隊貢獻
-
-**TODO：公開前請以實際情況填寫作者、組員、各自負責的模組，以及相較課程模板新增或修改的內容。**不能從單一 ZIP 快照判定功能由誰完成；請使用 [CREDITS.md](docs/CREDITS.md) 的分工表補充。
-
 ## 成果展示
 
 **TODO：**補上實際執行遊戲時的截圖，以及確認可公開的展示影片連結。背景素材本身不應標示成實際遊戲截圖。
@@ -83,3 +79,12 @@
 `--test` 目前不應視為已驗證的測試套件：靜態檢查發現測試模式建構子提早返回時，`scene_buffer` 可能未初始化，解構子卻會檢查它。第二關的同一放置分支也呼叫了兩次學生建立函式，應確認是否為預期行為後再發布版本。
 
 字型與原生依賴需另外準備。課程模板、第三方程式和素材權利仍待確認；這份文件不替整個專案授予新的再散布權利或套用統一授權。
+
+## 模板來源與致謝
+
+本專案以 [Introduction to Programming II Final Project Template](https://github.com/lightbulb12294/CSI2P2-Final-Project-Template) 為起點進行延伸開發。感謝原模板提供遊戲專案的基礎架構。
+
+- 模板倉庫：[`lightbulb12294/CSI2P2-Final-Project-Template`](https://github.com/lightbulb12294/CSI2P2-Final-Project-Template)
+- 原模板標示課程：Introduction to Programming II（Class Hwann-Tzong Chen）
+
+模板及其他第三方程式、素材的來源與授權資訊，請參閱 [來源與素材說明](docs/CREDITS.md)。
